@@ -1,6 +1,5 @@
 # Online-Examination-system
-A website where a student is permitted to take the online test once has been developed. PHP is utilised for back end development, while HTML and CSS are used to develop the front end. The student data is kept in a MYSQL database. The educational institutions might use this website to give students online tests in epidemic situations.
-•	This project is first experimented in localhost and for the benefit of all it is published in a domain which is bought for free.https://dd-project.000webhostapp.com
+A website where a student is permitted to take the online test once has been developed. PHP is utilised for back end development, while HTML and CSS are used to develop the front end. The student data is kept in a MYSQL database. The educational institutions might use this website to give students online tests in epidemic situations. This project is first experimented in localhost and for the benefit of all it is published in a domain which is bought for free.https://dd-project.000webhostapp.com
 
 
 
