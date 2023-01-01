@@ -1,5 +1,6 @@
-# Online-Examination-system
-A website where a student is permitted to take the online test once has been developed. PHP is utilised for back end development, while HTML and CSS are used to develop the front end. The student data is kept in a MYSQL database. The educational institutions might use this website to give students online tests in epidemic situations. This project is first experimented in localhost and for the benefit of all it is published in a domain which is bought for free.https://dd-project.000webhostapp.com
+<h1>Online-Examination-system<h1>
+<h2>Introduction</h2>
+The aim of this online examination system is to test and measure the skills of candidate deeply within a limited time period. In this project, a website where a student is permitted to take the online test has been developed. PHP is utilised for back end development, while HTML and CSS are used to develop the front end. The student data is kept in a MYSQL database.The examination begins with registration of candidates. During registration a unique register number will be given for each student. Registration is done by filling up the registration form. This project is implemented in localhost.
 
 
 
@@ -25,3 +26,5 @@ A website where a student is permitted to take the online test once has been dev
   <img  src="https://user-images.githubusercontent.com/81762286/113386314-9dba8400-93a7-11eb-9892-61c018aec8e6.JPG">
 </p>
 
+<h2>Conclusion</h2>
+Online examination system is a user friendly system, which is very easy and convenient to use. The system is complete in the sense that it is operational and it is tested by entering data and getting the reports in proper order. But there is always a scope for improvement and enhancement. During the development of this ,coding standards are followed for easy maintainability and extensibility. The educational institutions can use the online exam system to give students online tests in epidemic situations.
