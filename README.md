@@ -27,4 +27,4 @@ The aim of this online examination system is to test and measure the skills of c
 </p>
 
 <h2>Conclusion</h2>
-Online examination system is a user friendly system, which is very easy and convenient to use. The system is complete in the sense that it is operational and it is tested by entering data and getting the reports in proper order. But there is always a scope for improvement and enhancement. During the development of this ,coding standards are followed for easy maintainability and extensibility. The educational institutions can use the online exam system to give students online tests in epidemic situations.
+Online examination system is a user friendly system, which is very easy and convenient to use. The system is complete in the sense that it is operational and it is tested by entering data and getting the reports in proper order. But there is always a scope for improvement and enhancement. During the development of this, coding standards are followed for easy maintainability and extensibility. The educational institutions can use the online exam system to give students online tests in epidemic situations.
