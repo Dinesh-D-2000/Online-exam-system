@@ -2,7 +2,7 @@
 <h2>Introduction</h2>
 The aim of this online examination system is to test and measure the skills of candidate deeply within a limited time period. In this project, a website where a student is permitted to take the online test has been developed. PHP is utilised for back end development, while HTML and CSS are used to develop the front end. The student data is kept in a MYSQL database.The examination begins with registration of candidates. During registration a unique register number will be given for each student. Registration is done by filling up the registration form. This project is implemented in localhost.
 
-
+<h2>Working</h2>
 
 •	First of all, a student must register using his student-id before logging in.
 <p align="center">
