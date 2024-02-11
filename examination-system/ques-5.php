@@ -1,0 +1,47 @@
+<?php
+include_once("config.php");
+?>
+
+<html>
+<head>
+	<title>question5</title>
+	<link rel='stylesheet' href='style4.css'>
+</head>
+<body >
+	<form action="" method="post" name="form3" >
+		<h1 class='head'>Question 5 of 10<br/></h1>
+		<h2 class='ques'>5) India first took part in the Olympic Games in the year<br/></h2>
+		<p class='options'>
+		<input type="radio" name="choice" value="Y">a) 1920<br/>
+		<input type="radio" name="choice" value="N">b) 1928<br/>
+		<input type="radio" name="choice" value="N">c) 1972<br/>
+		<input type="radio" name="choice" value="N">d) 1974<br/>
+		
+		<input type="submit"  name="submit5" value="submit-Q5" class='sub' ></p>
+	</form>
+<?php
+include_once("config.php");
+$roll=$_GET['roll'];
+
+$res=mysqli_query($connection,"INSERT INTO $roll(ques) VALUES(5)")	;
+if(isset($_POST['choice']))
+{
+if(isset($_POST['submit5']))
+{
+$choice=$_POST['choice'];
+$res2=mysqli_query($connection,"UPDATE $roll SET choice='$choice' where ques=5");
+echo "<p class='answer'>Answer submitted</br></p> ";
+}
+else
+{
+$choice='N';
+$res2=mysqli_query($connection,"UPDATE $roll SET choice='$choice' where ques=5");
+}
+}
+echo "<br/><a href= 'ques-4.php?roll=$roll'><p class='Prev-Q'>Prev-Q</p></a>";
+echo "<br/><a href= 'ques-6.php?roll=$roll'><p class='Next-Q'>Next-Q</p></a>";
+
+?>
+
+</body>
+</html>
